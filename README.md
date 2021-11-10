@@ -7,3 +7,4 @@ This bot can be used for any custom emote by replacing <strong>kekw_id</strong> 
 <ol>
   <li>Send <strong>"\:kekw:"</strong> in a message to your server in any channel. Your message will be echoed, edited as <:kekw:[id number]>.</li>
   <li>In main.py, replace kekw_id with the string for your server's :kekw: custom emote id.</li>
+  <li>Edit the .env file to set <strong>DISCORD_BOT</strong>=[server token]</li>
