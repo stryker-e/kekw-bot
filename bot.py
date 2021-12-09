@@ -61,6 +61,8 @@ async def on_message(message):
             return
 
         if message.content.startswith(kekw_id) and kekw_id != '':
+            if message.author.id == 508000673946927136:
+                return
             await message.channel.send(kekw_id)
 
         if message.content.startswith(kekw_id) and kekw_id == 'none':
